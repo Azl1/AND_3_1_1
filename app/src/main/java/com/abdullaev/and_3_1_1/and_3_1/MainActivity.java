@@ -12,9 +12,11 @@ import com.abdullaev.and_3_1.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    LinearLayout linearLayout;
+    LinearLayout linearLayout0;
+    LinearLayout linearLayout1;
+    LinearLayout linearLayout2;
+    LinearLayout linearLayout3;
     TextView textView1;
-    TextView textView;
     Button button0;
     Button button1;
     Button button2;
@@ -136,7 +138,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
-        linearLayout = findViewById(R.id.linearLayout);
+        linearLayout0 = findViewById(R.id.linearLayout0);
+        linearLayout1 = findViewById(R.id.linearLayout1);
+        linearLayout2 = findViewById(R.id.linearLayout2);
+        linearLayout3 = findViewById(R.id.linearLayout3);
         textView1 =findViewById(R.id.textView);
         button0 = findViewById(R.id.button0);
         button1 = findViewById(R.id.button1);
