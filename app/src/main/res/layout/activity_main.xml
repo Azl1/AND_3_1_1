@@ -9,12 +9,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="421dp"
+        android:layout_width="match_parent"
         android:layout_height="289dp"
         android:layout_marginBottom="10dp"
+
+        android:textAlignment="textEnd"
+        android:textSize="100dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout0"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
